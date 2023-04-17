@@ -148,6 +148,7 @@ class Rubberband:
 
 class DraggableCanvas(tk.Canvas):
 
+
     def __init__(self, master, **kwargs):
         super().__init__(master, **kwargs)
         self.bind("<Button-1>", self.on_click)
